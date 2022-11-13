@@ -9,7 +9,7 @@ public class Euler {
             //若i是素数 则 isPrime[i]=true
             boolean[] isPrime = new boolean[101];
             Arrays.fill(isPrime, true);
-            isPrime[0] = isPrime[1] = false;//数字0和1都不是素数，所以赋true
+            isPrime[0] = isPrime[1] = false;//数字0和1都不是素数，所以赋false
      
             int[] Prime = new int[100];//存放素数的数组
             int t = 0;
