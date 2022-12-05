@@ -11,7 +11,9 @@
 3. 测试数据保证城市 1 和城市n 之间 至少 有一条路径。
 
 示例 1：
-![图1](/picture/1.png)
+
+[![图1](/picture/1.png)](https://github.com/justinSmileDate/LanQiaoCup/blob/master/LeetCodeTopics/GraphTheory/picture/1.png)
+
 输入：n = 4, roads = [ [1,2,9],[2,3,6],[2,4,5],[1,4,7]]
 输出：5
 解释：城市 1 到城市 4 的路径中，分数最小的一条为：1 -> 2 -> 4 。这条路径的分数是 min(9,5) = 5 。
